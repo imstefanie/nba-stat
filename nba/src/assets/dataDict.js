@@ -1,0 +1,37 @@
+export default {
+  teamStat:[
+    {type:'points',name:'得分'},
+    {type:'points_against',name:'失分'},
+    {type:'rebounds',name:'篮板'},
+    {type:'offensive_rebounds',name:'进攻篮板'},
+    {type:'defensive_rebounds',name:'防守篮板'},
+    {type:'assists',name:'助攻'},
+    {type:'turnovers',name:'失误'},
+    {type:'assists_turnover_ratio',name:'助攻失误比'},
+    {type:'steals',name:'抢断'},
+    {type:'field_goals_pct',name:'命中率'},
+    {type:'three_points_made',name:'三分命中数'},
+    {type:'three_points_att',name:'三分出手数'},
+    {type:'three_points_pct',name:'三分命中率'},
+    {type:'free_throws_att',name:'罚球数'},
+    {type:'free_throws_pct',name:'罚球命中率'}
+  ],
+  personStat:[
+    {type:'points',name:'得分'},
+    {type:'rebounds',name:'篮板'},
+    {type:'offensive_rebounds',name:'进攻篮板'},
+    {type:'defensive_rebounds',name:'防守篮板'},
+    {type:'assists',name:'助攻'},
+    {type:'turnovers',name:'失误'},
+    {type:'assists_turnover_ratio',name:'助攻失误比'},
+    {type:'minutes',name:'出场时间'},
+    {type:'steals',name:'抢断'},
+    {type:'blocks',name:'盖帽'},
+    {type:'field_goals_pct',name:'命中率'},
+    {type:'three_points_made',name:'三分命中数'},
+    {type:'three_points_att',name:'三分出手数'},
+    {type:'three_points_pct',name:'三分命中率'},
+    {type:'free_throws_att',name:'罚球数'},
+    {type:'free_throws_pct',name:'罚球命中率'}
+  ]
+}
